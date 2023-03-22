@@ -4,7 +4,7 @@ let {
 } = require("http-status-codes");
 let joi = require("joi");
 //files
-let Sentry = require("@logs/sentry");
+//let Sentry = require("@logs/sentry");
 
 
 module.exports = async function handler(req, res) {
