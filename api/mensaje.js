@@ -1,4 +1,4 @@
-require('module-alias/register');
+//require('module-alias/register');
 //libs
 let {
     StatusCodes: SC
@@ -6,7 +6,7 @@ let {
 //files
 //let mock = require("@mock/alias");
 //let Sentry = require("@logs/sentry");
-let axiosPlaceholder = require("@mock/remote/axios_placeholder")
+let axiosPlaceholder = require("../mock/remote/axios_placeholder")
 let Sentry = require("../logs/sentry");
 
 
